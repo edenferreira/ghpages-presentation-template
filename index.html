@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<slides class="posts">
+  {% for post in site.posts reversed %}
+    <slide>
+      {{ post }}
+    </slide>
+  {% endfor %}
+</slides>
